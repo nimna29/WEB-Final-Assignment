@@ -60,7 +60,7 @@ html {
 }
 
 .caption span.border {
-    background-color: transparent;
+    background-color: rgba(78, 78, 78, 0.219);
     color: #fff;
     padding: 18px;
     font-size: 60px;
