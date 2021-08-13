@@ -2,8 +2,7 @@ body,
 html {
     height: 100%;
     margin: 0;
-    font-family: 'Poppins';
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font: 400 15px/1.8;
     color: #777;
 }
 
@@ -71,7 +70,7 @@ html {
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px;
     color: #111;
 }
 
@@ -93,7 +92,6 @@ h3 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -163,7 +161,6 @@ header .navigation a:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin: 4px 2px;
     cursor: pointer;
