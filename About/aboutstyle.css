@@ -21,32 +21,32 @@ html {
 }
 
 .bgimg-1 {
-    background-image: url("About/Assest/1.jpg");
+    background-image: url("1.jpg");
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("About/Assest/2.jpg");
+    background-image: url("2.jpg");
     min-height: 400px;
 }
 
 .bgimg-3 {
-    background-image: url("About/Assest/3.jpg");
+    background-image: url("3.jpg");
     min-height: 400px;
 }
 
 .bgimg-4 {
-    background-image: url("About/Assest/4.jpg");
+    background-image: url("4.jpg");
     min-height: 400px;
 }
 
 .bgimg-5 {
-    background-image: url("About/Assest/5.jpg");
+    background-image: url("5.jpg");
     min-height: 400px;
 }
 
 .bgimg-6 {
-    background-image: url("About/Assest/6.jpg");
+    background-image: url("6.jpg");
     min-height: 400px;
 }
 
