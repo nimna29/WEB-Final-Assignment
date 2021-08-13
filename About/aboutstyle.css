@@ -2,8 +2,12 @@ body,
 html {
     height: 100%;
     margin: 0;
+
     font: 400 15px/1.8;
     color: #777;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: rgb(97, 97, 97);
+
 }
 
 .bgimg-1,
@@ -60,7 +64,7 @@ html {
 }
 
 .caption span.border {
-    background-color: #111;
+    background-color: rgba(78, 78, 78, 0.685);
     color: #fff;
     padding: 18px;
     font-size: 60px;
