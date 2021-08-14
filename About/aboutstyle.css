@@ -2,8 +2,12 @@ body,
 html {
     height: 100%;
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
+
+    font: 400 15px/1.8;
+    color: #777;
+    font: 400 15px/1.8 "Poppins";
     color: rgb(97, 97, 97);
+
 }
 
 .bgimg-1,
@@ -27,27 +31,27 @@ html {
 
 .bgimg-2 {
     background-image: url("2.jpg");
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .bgimg-3 {
     background-image: url("3.jpg");
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .bgimg-4 {
     background-image: url("4.jpg");
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .bgimg-5 {
     background-image: url("5.jpg");
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .bgimg-6 {
     background-image: url("6.jpg");
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .caption {
@@ -56,7 +60,7 @@ html {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+
 }
 
 .caption span.border {
@@ -70,8 +74,8 @@ html {
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
+    font: 20px;
+
 }
 
 
@@ -92,7 +96,6 @@ h3 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -162,7 +165,6 @@ header .navigation a:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin: 4px 2px;
     cursor: pointer;
