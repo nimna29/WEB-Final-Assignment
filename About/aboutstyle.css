@@ -2,12 +2,10 @@ body,
 html {
     height: 100%;
     margin: 0;
-
     font: 400 15px/1.8;
     color: #777;
     font: 400 15px/1.8 "Poppins";
     color: rgb(97, 97, 97);
-
 }
 
 .bgimg-1,
@@ -60,7 +58,6 @@ html {
     top: 50%;
     width: 100%;
     text-align: center;
-
 }
 
 .caption span.border {
@@ -75,7 +72,6 @@ h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 20px;
-
 }
 
 
@@ -133,7 +129,7 @@ header .navigation .navigation-items a {
     font-size: 1.1em;
     font-weight: 590;
     text-decoration: none;
-    margin-left: 32px;
+    margin-left: 30px;
 }
 
 header .navigation .navigation-items a:before {
