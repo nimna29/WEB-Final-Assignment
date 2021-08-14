@@ -60,7 +60,7 @@ html {
     top: 50%;
     width: 100%;
     text-align: center;
-
+    color: #000;
 }
 
 .caption span.border {
@@ -75,7 +75,7 @@ h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 20px;
-
+    color: #111;
 }
 
 
