@@ -66,6 +66,8 @@ html {
     padding: 18px;
     font-size: 60px;
     letter-spacing: 10px;
+    border: 5px;
+    border-radius: 25%;
 }
 
 h3 {
