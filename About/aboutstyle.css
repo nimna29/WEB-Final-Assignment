@@ -6,8 +6,6 @@ html {
     color: #777;
     font: 400 15px/1.8 "Poppins";
     color: rgb(97, 97, 97);
-    border: 5px;
-    border-radius: 5%;
 }
 
 .bgimg-1,
@@ -155,8 +153,8 @@ header .navigation a:hover {
 }
 
 .button1 {
-    background-color: #4f5155;
-    border: none;
+    background-color: #5f94ff;
+    border: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -169,4 +167,5 @@ header .navigation a:hover {
     align-items: center;
     margin-left: 45%;
     margin-top: 10%;
+    border-radius: 10%;
 }
