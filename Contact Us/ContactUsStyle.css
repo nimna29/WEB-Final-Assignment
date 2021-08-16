@@ -150,3 +150,16 @@ body{
     display: flex;
     justify-content: center;
 }
+.social-links a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    transition: all 0.4s ease;
+}
