@@ -1,0 +1,214 @@
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+   /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+  body {
+    
+    margin: 2rem;
+    color: var(--clr-gray);
+  }
+  
+  .wrapper-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 400px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  
+  /* Background of the Banner 1 */
+
+  .banner-img1 {
+    position: absolute;
+    background-image: url('Assets/bannerimg1.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    /* Background of the Banner 2 */
+  
+  .banner-img2 {
+    position: absolute;
+    background-image: url('Assets/bannerimg2.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    /* Background of the Banner 3 */
+  
+    .banner-img3 {
+      position: absolute;
+      background-image: url('Assets/bannerimg3.jpg');
+      height: 10rem;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+      /* Background of the Banner 4 */
+  
+  .banner-img4 {
+    position: absolute;
+    background-image: url('Assets/bannerimg4.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    /* Background of the Banner 5 */
+  
+    .banner-img5 {
+      position: absolute;
+      background-image: url('Assets/bannerimg5.jpg');
+      height: 10rem;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+      /* Background of the Banner 6 */
+  
+  .banner-img6 {
+    position: absolute;
+    background-image: url('Assets/bannerimg6.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: var(--clr-primary);
+  }
+
+  .btn:hover {
+      background-color: #ff1f1f;
+  }
+
+  <!--Menu and Socila icon CSS-->* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Navigation Bar*/
+header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  transition: 0.5s ease;
+}
+
+header .brand {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .navigation {
+  position: relative;
+}
+
+header .navigation a:hover {
+  position: relative;
+  color: aqua;
+}
+
+header .navigation .navigation-items a {
+  position: relative;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before {
+  content: '';
+  position: absolute;
+  background: rgb(6, 184, 255);
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before {
+  width: 100%;
+  background-color: #7126e9;
+}
+
+header .navigation a:hover {
+  color: aqua;
+}
