@@ -9,4 +9,5 @@
     height: 90%;
     background: #ccc;
     margin: 120px auto;
+    display: flex;
 }
