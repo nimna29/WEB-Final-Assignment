@@ -64,3 +64,6 @@ h2{
 .col:hover{
     flex-grow: 2.5;
 }
+.col:hover .caption{
+    
+}
