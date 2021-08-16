@@ -153,7 +153,7 @@ header .navigation a:hover {
 }
 
 .button1 {
-    background-color: #5f94ff;
+    background-color: #286fff;
     border: 5px;
     color: white;
     padding: 15px 32px;
@@ -168,6 +168,10 @@ header .navigation a:hover {
     margin-left: 45%;
     margin-top: 10%;
     border-radius: 16%;
+}
+
+.button1:hover {
+    background-color: rgb(21, 255, 255);
 }
 
 
