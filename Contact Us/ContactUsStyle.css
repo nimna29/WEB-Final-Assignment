@@ -126,3 +126,9 @@ body{
     cursor: pointer;
     transition: all 0.4s ease;
 }
+.send-btn:hover{
+    opacity: 0.8;
+}
+.contact-form > div img{
+    width: 85%;
+}
