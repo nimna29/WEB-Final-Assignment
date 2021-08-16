@@ -163,3 +163,7 @@ body{
     margin: 0.4rem;
     transition: all 0.4s ease;
 }
+.social-links a:hover{
+    color: #f7327a;
+    border-color: #f7327a;
+}
