@@ -21,3 +21,6 @@
     position: relative;
     transition: 0.5s;
 }
+.col:nth-child(1){
+    
+}
