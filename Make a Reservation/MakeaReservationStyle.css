@@ -58,4 +58,5 @@ h2{
 .col img{
     width: 200px;
     position: absolute;
+    right: 0;
 }
