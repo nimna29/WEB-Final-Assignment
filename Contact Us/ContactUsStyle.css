@@ -114,3 +114,15 @@ body{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0.6rem;
 }
+.send-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #f7327a;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
