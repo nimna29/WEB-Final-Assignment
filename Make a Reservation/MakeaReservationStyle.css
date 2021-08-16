@@ -15,4 +15,6 @@
 .col {
     height: 100%;
     flex: 1;
+    color: #fff;
+    box-sizing: border-box;
 }
