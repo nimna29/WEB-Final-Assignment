@@ -146,3 +146,7 @@ body{
     margin-bottom: 1rem;
     text-align: center;
 }
+.social-links{
+    display: flex;
+    justify-content: center;
+}
