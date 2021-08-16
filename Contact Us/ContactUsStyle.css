@@ -132,3 +132,7 @@ body{
 .contact-form > div img{
     width: 85%;
 }
+.contact-form > div{
+    margin: 0 auto;
+    text-align: center;
+}
