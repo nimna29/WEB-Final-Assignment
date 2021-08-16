@@ -35,6 +35,11 @@ header .navigation {
     position: relative;
 }
 
+header .navigation a:hover {
+    position: relative;
+    color: aqua;
+}
+
 
 .contact-bg{
     height: 100vh;
