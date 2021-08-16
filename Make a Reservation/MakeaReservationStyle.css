@@ -21,6 +21,7 @@
     position: relative;
     transition: 0.5s;
 }
+
 .col:nth-child(1){
     background-image: url("img1.jpg");
 }
@@ -60,10 +61,12 @@ h2{
     position: absolute;
     right: 0;
     left: 0;
-}
+} 
+
 .col:hover{
     flex-grow: 2.5;
 }
+
 .col:hover .caption{
     display: block;
 }
