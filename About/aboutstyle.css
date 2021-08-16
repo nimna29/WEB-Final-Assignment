@@ -184,6 +184,7 @@ header .navigation a:hover {
 
 .fa:hover {
     opacity: 0.8;
+    background-color: rgb(0, 255, 255);
 }
 
 .fa-facebook {
