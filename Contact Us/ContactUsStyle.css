@@ -61,6 +61,15 @@ header .navigation .navigation-items a:before {
     transition: 0.3s ease;
 }
 
+header .navigation .navigation-items a:hover:before {
+    width: 100%;
+    background-color: #7126e9;
+}
+
+header .navigation a:hover {
+    color: aqua;
+}
+
 
 .contact-bg{
     height: 100vh;
