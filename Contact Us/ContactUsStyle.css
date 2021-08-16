@@ -188,3 +188,8 @@ body{
         align-items: center;
     }
 }
+@media screen and (min-width: 1200px){
+    .contact-info{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
