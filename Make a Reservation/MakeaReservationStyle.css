@@ -37,5 +37,6 @@ h2{
 }
 
 .caption{
-    
+    max-width: 230px;
+    font-size: 15px;
 }
