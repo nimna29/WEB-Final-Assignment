@@ -45,8 +45,8 @@ h2{
 }
 
 .caption button{
-    max-width: 230px;
-    font-size: 15px;
+    border: 1px solid #fff;
+    background: transparent;
     outline: none;
     padding: 8px 18px;
     color: #fff;
