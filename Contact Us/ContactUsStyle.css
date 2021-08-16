@@ -178,3 +178,13 @@ body{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media screen and (min-width: 992px){
+    .contact-bg .text{
+        width: 50%;
+    }
+    .contact-form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
