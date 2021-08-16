@@ -62,5 +62,5 @@ h2{
     left: 0;
 }
 .col:hover{
-    
+    flex-grow: 2.5;
 }
