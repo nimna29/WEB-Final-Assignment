@@ -72,7 +72,7 @@
                         <input type = "text" class = "form-control" placeholder="Phone" name="phone">
                     </div>
                     <textarea rows = "5" placeholder="Message" class = "form-control" name="textarea"></textarea>
-                    <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="">
+                    <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="validationform()">
                 </form>
                 <script>
                     function validationform()
@@ -81,8 +81,29 @@
                         lname=document.validationform.lname.value.length;
                         email=document.validationform.email.value.length;
                         phone=document.validationform.phone.value.length;
+                        textarea=document.validationform.textarea.value.;
 
+                        if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1);
+                        {
+                            alert("Input is Empty - Please Type On The Relevant Field.");
+                            return;
+                        }
 
+                        mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                        if(!(document.validationforam.email.value.match(mailformat)))
+                        {
+                        alert("You have entered an invalid email ");
+                        document.validationforam.email.focus();
+                        return;
+                        }
+
+                        if(Phone != 10 || isNaN(document.validationforam.PhoneNumber.value))
+                        {
+                        alert("Phone Number Error: All the characters should be numbers and length should be 10");
+                        return;
+                        }
+
+                        
                     }
                 </script>
 
