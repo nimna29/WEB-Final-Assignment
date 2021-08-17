@@ -61,6 +61,38 @@
                     <span class = "text">Monday - Friday (9:00 AM to 5:00 PM)</span>
                 </div>
             </div>
+            <script>
+                function validationform()
+                {
+                    fname=document.validationform.fname.value.length;
+                    lname=document.validationform.lname.value.length;
+                    email=document.validationform.email.value.length;
+                    phone=document.validationform.phone.value.length;
+                    textarea=document.validationform.textarea.value.length;
+
+                    if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1);
+                    {
+                        alert("Input is Empty - Please Type On The Relevant Field.");
+                        return;
+                    }
+
+                    /*mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                    if(!(document.validationforam.email.value.match(mailformat)))
+                    {
+                    alert("You have entered an invalid email ");
+                    document.validationforam.email.focus();
+                    return;
+                    }
+
+                    if(Phone != 10 || isNaN(document.validationforam.PhoneNumber.value))
+                    {
+                    alert("Phone Number Error: All the characters should be numbers and length should be 10");
+                    return;
+                    }*/
+
+                    
+                }
+            </script>
             <div class = "contact-form">
                 <form method="post" name="validationform">
                     <div>
@@ -74,38 +106,7 @@
                     <textarea rows = "5" placeholder="Message" class = "form-control" name="textarea"></textarea>
                     <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="validationform()">
                 </form>
-                <script>
-                    function validationform()
-                    {
-                        fname=document.validationform.fname.value.length;
-                        lname=document.validationform.lname.value.length;
-                        email=document.validationform.email.value.length;
-                        phone=document.validationform.phone.value.length;
-                        textarea=document.validationform.textarea.value;
-
-                        if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1);
-                        {
-                            alert("Input is Empty - Please Type On The Relevant Field.");
-                            return;
-                        }
-
-                        mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                        if(!(document.validationforam.email.value.match(mailformat)))
-                        {
-                        alert("You have entered an invalid email ");
-                        document.validationforam.email.focus();
-                        return;
-                        }
-
-                        if(Phone != 10 || isNaN(document.validationforam.PhoneNumber.value))
-                        {
-                        alert("Phone Number Error: All the characters should be numbers and length should be 10");
-                        return;
-                        }
-
-                        
-                    }
-                </script>
+                
 
                 <div>
                     <img src = "Pixcelence-photography-Color-logo.png" alt = "">
