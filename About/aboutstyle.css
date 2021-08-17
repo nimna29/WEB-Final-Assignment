@@ -153,7 +153,7 @@ header .navigation a:hover {
 }
 
 .button1 {
-    background-color: #5f94ff;
+    background-color: #286fff;
     border: 5px;
     color: white;
     padding: 15px 32px;
@@ -168,4 +168,50 @@ header .navigation a:hover {
     margin-left: 45%;
     margin-top: 10%;
     border-radius: 16%;
+}
+
+.button1:hover {
+    background-color: rgb(21, 255, 255);
+}
+
+
+/* Social Icon Design*/
+
+.fa {
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.8;
+    background-color: rgb(0, 255, 255);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: #075e54;
+    color: white;
 }
