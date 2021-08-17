@@ -13,9 +13,6 @@
     <script>
         function validationform()
         {
-            URL= link("https://nimna29.github.io/WEB-Final-Assignment/Contact%20Us/ContactUs.html");
-
-
             fname=document.contactus.fname.value.length;
             lname=document.contactus.lname.value.length;
             email=document.contactus.email.value.length;
@@ -25,7 +22,7 @@
             if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1)
             {
                 alert("Input is Empty - Please Type On The Relevant Field.");
-                return URL;
+                return;
             }
 
             mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
