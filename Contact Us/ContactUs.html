@@ -15,9 +15,9 @@
         {
             fname=document.contactus.fname.value.length;
             lname=document.contactus.lname.value.length;
-            email=document.validationform.email.value.length;
-            phone=document.validationform.phone.value.length;
-            textarea=document.validationform.textarea.value.length;
+            email=document.contactus.email.value.length;
+            phone=document.contactus.phone.value.length;
+            textarea=document.contactus.textarea.value.length;
 
             if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1)
             {
@@ -26,14 +26,14 @@
             }
 
             mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-            if(!(document.validationform.email.value.match(mailformat)))
+            if(!(document.contactus.email.value.match(mailformat)))
             {
             alert("You have entered an invalid email ");
-            document.validationform.email.focus();
+            document.contactus.email.focus();
             return;
             }
 
-            if(phone != 10 || isNaN(document.validationform.phone.value))
+            if(phone != 10 || isNaN(document.contactus.phone.value))
             {
             alert("Phone Number Error: All the characters should be numbers and length should be 10");
             return;
