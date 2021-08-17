@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class = "contact-form">
-                <form name="validationform">
+                <form method="post" name="validationform">
                     <div>
                         <input type = "text" class = "form-control" placeholder="First Name" name="fname">
                         <input type = "text" class = "form-control" placeholder="Last Name" name="lname">
@@ -71,8 +71,8 @@
                         <input type = "email" class = "form-control" placeholder="E-mail" name="email">
                         <input type = "text" class = "form-control" placeholder="Phone" name="phone">
                     </div>
-                    <textarea rows = "5" placeholder="Message" class = "form-control"></textarea>
-                    <input type = "submit" class = "send-btn" value = "Send to Pixelence">
+                    <textarea rows = "5" placeholder="Message" class = "form-control" name="textarea"></textarea>
+                    <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="">
                 </form>
                 <script>
                     function validationform()
@@ -80,6 +80,8 @@
                         fname=document.validationform.fname.value.length;
                         lname=document.validationform.lname.value.length;
                         email=document.validationform.email.value.length;
+                        phone=document.validationform.phone.value.length;
+
 
                     }
                 </script>
