@@ -62,18 +62,27 @@
                 </div>
             </div>
             <div class = "contact-form">
-                <form>
+                <form name="validationform">
                     <div>
-                        <input type = "text" class = "form-control" placeholder="First Name">
-                        <input type = "text" class = "form-control" placeholder="Last Name">
+                        <input type = "text" class = "form-control" placeholder="First Name" name="fname">
+                        <input type = "text" class = "form-control" placeholder="Last Name" name="lname">
                     </div>
                     <div>
-                        <input type = "email" class = "form-control" placeholder="E-mail">
-                        <input type = "text" class = "form-control" placeholder="Phone">
+                        <input type = "email" class = "form-control" placeholder="E-mail" name="email">
+                        <input type = "text" class = "form-control" placeholder="Phone" name="phone">
                     </div>
                     <textarea rows = "5" placeholder="Message" class = "form-control"></textarea>
                     <input type = "submit" class = "send-btn" value = "Send to Pixelence">
                 </form>
+                <script>
+                    function validationform()
+                    {
+                        fname=document.validationform.fname.value.length;
+                        lname=document.validationform.lname.value.length;
+                        email=document.validationform.email.value.length;
+
+                    }
+                </script>
 
                 <div>
                     <img src = "Pixcelence-photography-Color-logo.png" alt = "">
