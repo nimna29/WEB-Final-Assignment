@@ -23,7 +23,7 @@
             if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1)
             {
                 alert("Input is Empty - Please Type On The Relevant Field.");
-                return;
+                
             }
 
             mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -31,13 +31,13 @@
             {
             alert("You have entered an invalid email ");
             document.contactus.email.focus();
-            return;
+            
             }
 
             if(phone != 10 || isNaN(document.contactus.phone.value))
             {
             alert("Phone Number Error: All the characters should be numbers and length should be 10");
-            return;
+            
             }
 
             
