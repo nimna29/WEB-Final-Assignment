@@ -4,6 +4,13 @@
     font-family: 'Poppins', sans-serif;    
 }
 
+body{
+    background-image: url("img2.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    overflow-y:hidden;
+}
+
 .container {
     width: 90%;
     height: 90%;
