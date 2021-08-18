@@ -4,6 +4,13 @@
     font-family: 'Poppins', sans-serif;    
 }
 
+body{
+    background-image: url("img2.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    overflow-y:hidden;
+}
+
 .container {
     width: 90%;
     height: 90%;
@@ -15,11 +22,20 @@
 .col {
     height: 100%;
     flex: 1;
-    color: #fff;
     box-sizing: border-box;
     padding: 25px;
     position: relative;
     transition: 0.5s;
+}
+
+.br{
+    color: #cd7f32;
+}
+.sl{
+    color: #c0c0c0;
+}
+.gl{
+    color: #d4af37;
 }
 
 .col:nth-child(1){
@@ -31,20 +47,23 @@
 .col:nth-child(3){
     background-image: url("img1.jpg");
 }
-h2{
+h1{
     text-align: center;
     font-size: 22px;
     font-weight: 600;
+    display: block;
 }
 
 .caption{
     max-width: 230px;
     font-size: 15px;
-    max-width: 230px;
-    font-size: 15px;
+    color: #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
-.caption button{
+.caption button {
     border: 1px solid #fff;
     background: transparent;
     outline: none;
@@ -68,4 +87,72 @@ h2{
 }
 .col:hover .caption{
     display: block;
+}
+.col:hover h1{
+    display: none;
+}
+
+#more{
+    display: none;
+}
+#more2{
+    display: none;
+}
+#more3{
+    display: none;
+}
+
+header {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;   
+}
+header .brand {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation {
+    position: relative;
+}
+
+header .navigation a:hover {
+    position: relative;
+    color: aqua;
+}
+
+header .navigation .navigation-items a {
+    position: relative;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 590;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+header .navigation .navigation-items a:before {
+    content: '';
+    position: absolute;
+    background: rgb(6, 184, 255);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+header .navigation .navigation-items a:hover:before {
+    width: 80%;
+    background-color: #7126e9;
+}
+header .navigation a:hover {
+    color: aqua;
 }
