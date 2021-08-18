@@ -57,6 +57,7 @@ h2{
 .caption{
     max-width: 230px;
     font-size: 15px;
+    color: #ccc;
     max-width: 230px;
     font-size: 15px;
 }
@@ -85,4 +86,7 @@ h2{
 }
 .col:hover .caption{
     display: block;
+}
+.col:hover h1{
+    display: none;
 }
