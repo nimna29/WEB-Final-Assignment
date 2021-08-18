@@ -29,6 +29,16 @@ body{
     transition: 0.5s;
 }
 
+.br{
+    color: #cd7f32;
+}
+.sl{
+    color: #c0c0c0;
+}
+.gl{
+    color: #d4af37;
+}
+
 .col:nth-child(1){
     background-image: url("img1.jpg");
 }
