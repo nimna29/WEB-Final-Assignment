@@ -127,4 +127,22 @@ header .navigation .navigation-items a {
     margin-left: 30px;
     
 }
+header .navigation .navigation-items a:before {
+    content: '';
+    position: absolute;
+    background: rgb(6, 184, 255);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
 
+header .navigation .navigation-items a:hover:before {
+    width: 80%;
+    background-color: #7126e9;
+}
+
+header .navigation a:hover {
+    color: aqua;
+}
