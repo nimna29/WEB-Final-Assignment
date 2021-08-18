@@ -47,7 +47,7 @@ body{
 .col:nth-child(3){
     background-image: url("img1.jpg");
 }
-h2{
+h1{
     text-align: center;
     font-size: 22px;
     font-weight: 600;
@@ -58,11 +58,12 @@ h2{
     max-width: 230px;
     font-size: 15px;
     color: #ccc;
-    max-width: 230px;
-    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
 
-.caption button{
+.caption button {
     border: 1px solid #fff;
     background: transparent;
     outline: none;
@@ -101,6 +102,17 @@ h2{
     display: none;
 }
 
+header {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;   
+}
 header .brand {
     color: #fff;
     font-size: 1.5em;
@@ -137,12 +149,10 @@ header .navigation .navigation-items a:before {
     left: 0;
     transition: 0.3s ease;
 }
-
 header .navigation .navigation-items a:hover:before {
     width: 80%;
     background-color: #7126e9;
 }
-
 header .navigation a:hover {
     color: aqua;
 }
