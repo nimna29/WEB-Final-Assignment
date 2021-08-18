@@ -90,3 +90,13 @@ h2{
 .col:hover h1{
     display: none;
 }
+
+#more{
+    display: none;
+}
+#more2{
+    display: none;
+}
+#more3{
+    display: none;
+}
