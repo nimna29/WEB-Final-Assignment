@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Pixcelence | Contact Us</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
@@ -9,6 +10,40 @@
     <link rel="stylesheet" href="ContactUsStyle.css">
     <!-- iconCss -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <script>
+        function validationform()
+        {
+            fname=document.contactus.fname.value.length;
+            lname=document.contactus.lname.value.length;
+            email=document.contactus.email.value.length;
+            phone=document.contactus.phone.value.length;
+            textarea=document.contactus.textarea.value.length;
+
+            if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1)
+            {
+                alert("Input is Empty - Please Type On The Relevant Field.");
+                
+                
+            }
+
+            mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(!(document.contactus.email.value.match(mailformat)))
+            {
+            alert("You have entered an invalid email ");
+            document.contactus.email.focus();
+            
+            
+            }
+
+            if(phone != 10 || isNaN(document.contactus.phone.value))
+            {
+            alert("Phone Number Error: All the characters should be numbers and length should be 10"); 
+            }
+
+            
+        }
+</script>
 </head>
 <body>
     <!-- Navigation bar -->
@@ -18,11 +53,11 @@
         <div class="menu-btn"></div>
         <div class="navigation">
             <div class="navigation-items">
-                <a href="https://nimna29.github.io/WEB-Final-Assignment/index.html">Home</a>
-                <a href="https://nimna29.github.io/WEB-Final-Assignment/About/about.html">About</a>
-                <a href="https://nimna29.github.io/WEB-Final-Assignment/Albums/gallery.html">Albums</a>
-                <a href="#">Make A Reservation</a>
-                <a href="https://nimna29.github.io/WEB-Final-Assignment/Contact Us/ContactUs.html">Contact</a>
+                <a href="https://nimna29.github.io/WEB-Final-Assignment/index.html"><b>Home</b></a>
+                <a href="https://nimna29.github.io/WEB-Final-Assignment/About/about.html"><b>About</b></a>
+                <a href="https://nimna29.github.io/WEB-Final-Assignment/Albums/gallery.html"><b>Albums</b></a>
+                <a href="https://nimna29.github.io/WEB-Final-Assignment/Make%20a%20Reservation/MakeaReservation.html"><b>Make A Reservation</b></a>
+                <a href="https://nimna29.github.io/WEB-Final-Assignment/Contact Us/ContactUs.html"><b>Contact</b></a>
             </div>
         </div>
     </header>
@@ -48,7 +83,7 @@
                 <div>
                     <span><i class = "fas fa-envelope-open"></i></span>
                     <span>Mail US</span>
-                    <span class = "text">pixelence@company.com</span>
+                    <span class = "text">pixelenceartstudio@gmail.com</span>
                 </div>
                 <div>
                     <span><i class = "fas fa-map-marker-alt"></i></span>
@@ -61,19 +96,21 @@
                     <span class = "text">Monday - Friday (9:00 AM to 5:00 PM)</span>
                 </div>
             </div>
+            
             <div class = "contact-form">
-                <form>
+                <form method="POST" name="contactus">
                     <div>
-                        <input type = "text" class = "form-control" placeholder="First Name">
-                        <input type = "text" class = "form-control" placeholder="Last Name">
+                        <input type = "text" class = "form-control" placeholder="First Name" name="fname">
+                        <input type = "text" class = "form-control" placeholder="Last Name" name="lname">
                     </div>
                     <div>
-                        <input type = "email" class = "form-control" placeholder="E-mail">
-                        <input type = "text" class = "form-control" placeholder="Phone">
+                        <input type = "email" class = "form-control" placeholder="E-mail" name="email">
+                        <input type = "text" class = "form-control" placeholder="Phone" name="phone">
                     </div>
-                    <textarea rows = "5" placeholder="Message" class = "form-control"></textarea>
-                    <input type = "submit" class = "send-btn" value = "Send to Pixelence">
+                    <textarea rows = "5" placeholder="Message" class = "form-control" name="textarea"></textarea>
+                    <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="validationform()">
                 </form>
+                
 
                 <div>
                     <img src = "Pixcelence-photography-Color-logo.png" alt = "">
