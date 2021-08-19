@@ -5,11 +5,7 @@
 }
 
 body{
-
-    background-image: url("BGtest.png");
-
     background-image: url("img2.jpg");
-
     background-size:auto;
     background-repeat: no-repeat;
     overflow-y:hidden;
@@ -43,13 +39,13 @@ body{
 }
 
 .col:nth-child(1){
-    background-image: url("1.jpg");
+    background-image: url("img1.jpg");
 }
 .col:nth-child(2){
-    background-image: url("2.jpg");
+    background-image: url("img1.jpg");
 }
 .col:nth-child(3){
-    background-image: url("3.jpg");
+    background-image: url("img1.jpg");
 }
 h1{
     text-align: center;
