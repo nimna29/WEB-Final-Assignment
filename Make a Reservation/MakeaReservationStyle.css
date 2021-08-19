@@ -4,6 +4,13 @@
     font-family: 'Poppins', sans-serif;    
 }
 
+body{
+    background-image: url("BGtest.png");
+    background-size:auto;
+    background-repeat: no-repeat;
+    overflow-y:hidden;
+}
+
 .container {
     width: 90%;
     height: 90%;
@@ -23,13 +30,13 @@
 }
 
 .col:nth-child(1){
-    background-image: url("img1.jpg");
+    background-image: url("1.jpg");
 }
 .col:nth-child(2){
-    background-image: url("img1.jpg");
+    background-image: url("2.jpg");
 }
 .col:nth-child(3){
-    background-image: url("img1.jpg");
+    background-image: url("3.jpg");
 }
 h2{
     text-align: center;
