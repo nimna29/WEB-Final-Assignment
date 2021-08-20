@@ -107,11 +107,11 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 76%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;   
+    padding: 15px 200px;   
 }
 header .brand {
     color: #fff;
