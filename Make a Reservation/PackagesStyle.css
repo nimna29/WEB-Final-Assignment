@@ -11,9 +11,8 @@ html {
 .bgimg-1,
 .bgimg-2,
 .bgimg-3,
-.bgimg-4,
-.bgimg-5,
-.bgimg-6 {
+.bgimg-4
+{
     position: relative;
     opacity: 0.75;
     background-attachment: fixed;
@@ -23,34 +22,27 @@ html {
 }
 
 .bgimg-1 {
-    background-image: url("11.jpg");
+    background-image: url("11.png");
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("12.jpg");
+    background-image: url("12.png");
     min-height: 500px;
 }
 
 .bgimg-3 {
-    background-image: url("13.jpg");
+    background-image: url("13.png");
     min-height: 500px;
 }
+
 
 .bgimg-4 {
-    background-image: url("14.jpg");
+    background-image: url("14.png");
     min-height: 500px;
 }
 
-.bgimg-5 {
-    background-image: url("15.jpg");
-    min-height: 500px;
-}
 
-.bgimg-6 {
-    background-image: url("16.jpg");
-    min-height: 500px;
-}
 
 .caption {
     position: absolute;
@@ -81,9 +73,8 @@ h3 {
     .bgimg-1,
     .bgimg-2,
     .bgimg-3,
-    .bgimg-4,
-    .bgimg-5,
-    .bgimg-6 {
+    .bgimg-4
+     {
         background-attachment: scroll;
     }
 }
