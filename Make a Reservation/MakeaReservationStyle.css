@@ -26,6 +26,8 @@ body{
     padding: 25px;
     position: relative;
     transition: 0.5s;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:white;
 }
 
 .br{
