@@ -1,0 +1,177 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8;
+    color: #777;
+    font: 400 15px/1.8 "Poppins";
+    color: rgb(97, 97, 97);
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+    position: relative;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("1.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("2.jpg");
+    min-height: 500px;
+}
+
+.bgimg-3 {
+    background-image: url("3.jpg");
+    min-height: 500px;
+}
+
+.bgimg-4 {
+    background-image: url("4.jpg");
+    min-height: 500px;
+}
+
+.bgimg-5 {
+    background-image: url("5.jpg");
+    min-height: 500px;
+}
+
+.bgimg-6 {
+    background-image: url("6.jpg");
+    min-height: 500px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border {
+    background-color: rgba(78, 78, 78, 0.685);
+    color: #fff;
+    padding: 18px;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6 {
+        background-attachment: scroll;
+    }
+}
+
+<!--Menu and Socila icon CSS-->* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+}
+
+header .brand {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation {
+    position: relative;
+}
+
+header .navigation a:hover {
+    position: relative;
+    color: aqua;
+}
+
+header .navigation .navigation-items a {
+    position: relative;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 590;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+header .navigation .navigation-items a:before {
+    content: '';
+    position: absolute;
+    background: rgb(6, 184, 255);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before {
+    width: 80%;
+    background-color: #7126e9;
+}
+
+header .navigation a:hover {
+    color: aqua;
+}
+
+.button1 {
+    background-color: #286fff;
+    border: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 10%;
+    border-radius: 16%;
+}
+
+.button1:hover {
+    background-color: rgb(21, 255, 255);
+}
+
+
