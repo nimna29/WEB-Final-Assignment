@@ -23,32 +23,32 @@ html {
 }
 
 .bgimg-1 {
-    background-image: url("1.jpg");
+    background-image: url("11.jpg");
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("2.jpg");
+    background-image: url("12.jpg");
     min-height: 500px;
 }
 
 .bgimg-3 {
-    background-image: url("3.jpg");
+    background-image: url("13.jpg");
     min-height: 500px;
 }
 
 .bgimg-4 {
-    background-image: url("4.jpg");
+    background-image: url("14.jpg");
     min-height: 500px;
 }
 
 .bgimg-5 {
-    background-image: url("5.jpg");
+    background-image: url("15.jpg");
     min-height: 500px;
 }
 
 .bgimg-6 {
-    background-image: url("6.jpg");
+    background-image: url("16.jpg");
     min-height: 500px;
 }
 
