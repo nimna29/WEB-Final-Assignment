@@ -163,6 +163,8 @@ header .navigation a:hover {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    margin-left: 45%;
+    margin-top: 10%;
 }
 
 .button1:hover {
