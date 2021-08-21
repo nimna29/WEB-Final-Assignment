@@ -144,26 +144,22 @@ header .navigation a:hover {
 }
 
 .button1 {
-    background-color: #286fff;
-    border: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 4px 2px;
+    padding: 14px 28px;
+    font-size: 16px;
     cursor: pointer;
-    align-items: center;
-    margin-left: 45%;
-    margin-top: 10%;
-    border-radius: 16%;
-}
-
-.button1:hover {
-    background-color: rgb(21, 255, 255);
-}
+    text-align: center;
+    margin-top: 4%;
+  }
+  
+  .button1:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 
 .contact-bg{
