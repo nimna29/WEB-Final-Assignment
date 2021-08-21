@@ -132,17 +132,36 @@
                 <input type = "text" class = "form-control" placeholder="Last Name" name="lname">
             </div>
             <div>
+                
                 <input type = "email" class = "form-control" placeholder="E-mail" name="email">
                 <input type = "text" class = "form-control" placeholder="Phone" name="phone">
                 <input type = "date" class = "form-control" name="date">
                 <input type = "text" class = "form-control" placeholder="Venue" name="venue"> 
-                <input type = "radio" class = "form-control"  name="Category" value="Wedding Basic" > &nbsp  &nbsp  Wedding Basic
-                <input type = "radio" class = "form-control"  name="Category" value="Wedding Classic" > Wedding Classic
-                <input type = "radio" class = "form-control"  name="Category" value="Engagement" > Engagement
-                <input type = "radio" class = "form-control"  name="Category" value="Wedding Basic & Engagement" > Wedding Basic & Engagement
-                <input type = "radio" class = "form-control"  name="Category" value="Wedding Classic & Engagement" > Wedding Classic & Engagement
-
-
+                <table border="0">
+                    <tr>
+                    <td><input type = "radio" class = "form-control"  name="Category" value="Wedding Basic" >
+                    </td>
+                    <td>Wedding Basic</td>
+                    </tr> 
+                    <td> <input type = "radio" class = "form-control"  name="Category" value="Wedding Classic" > 
+                    </td>
+                    <td>Wedding Classic</td>
+                    </tr> 
+                    <td> <input type = "radio" class = "form-control"  name="Category" value="Engagement" > 
+                    </td>
+                    <td>Engagement</td>
+                    </tr>
+                    <td> <input type = "radio" class = "form-control"  name="Category" value="Wedding Basic & Engagement" > 
+                    </td>
+                    <td>Wedding Basic & Engagement</td>
+                    </tr>
+                    </tr>
+                    <td>  <input type = "radio" class = "form-control"  name="Category" value="Wedding Classic & Engagement" > 
+                    </td>
+                    <td>Wedding Classic & Engagement</td>
+                    </tr>
+                </table> 
+                                                     
             </div>
             <textarea rows = "5" placeholder="Message" class = "form-control" name="textarea"></textarea>
             <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="validationform()">
