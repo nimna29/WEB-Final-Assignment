@@ -153,25 +153,26 @@ header .navigation a:hover {
 }
 
 .button1 {
-    background-color: #286fff;
-    border: 5px;
-    color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
+    font-size: 24px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 4px 2px;
     cursor: pointer;
-    align-items: center;
-    margin-left: 45%;
-    margin-top: 10%;
-    border-radius: 16%;
+    outline: none;
+    color: #fff;
+    background-color: #286fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 .button1:hover {
-    background-color: rgb(21, 255, 255);
+    background-color: rgb(21, 255, 255)
+}
+
+.button1:active {
+    background-color: #286fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 
