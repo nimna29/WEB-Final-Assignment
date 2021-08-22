@@ -169,6 +169,10 @@
                 }
                 mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
                 if(!(document.contactus.email.value.match(mailformat)))
+                {
+                    alert("You have entered an invalid email ");
+                    document.contactus.email.focus();
+                }
             }
 
 
