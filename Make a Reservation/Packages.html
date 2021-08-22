@@ -151,25 +151,28 @@
         
         <script>
             function validationform2()
+
             {
-                fname    = document.pkgform.fname.value.length;
-                lname    = document.pkgform.lname.value.length;
-                email    = document.pkgform.email.value.length;
-                phone    = document.pkgform.phone.value.length;
-                category = document.pkgform.Category.value;
-                textarea = document.pkgform.textarea.length;
-                date     = document.pkgform.Date.value.length;
-                venue    = document.pkgform.venue.value.length;
+                fname=document.pkgform.fname.value.length;
+                lname=document.pkgform.lname.value.length;
+                email=document.pkgform.email.value.length;
+                phone=document.pkgform.phone.value.length;
+                date = document.pkgform.date.value.length;
+                venue=document.pkgform.venue.value.length;
+                category=document.pkgform.Category.value;
+                textarea=document.pkgform.textarea.length;    
 
                 if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1 || date<1 || venue<1)
+
                 {
                     alert("Input is Empty - Please Type On The Relevant Field.");
-
                 }
+                mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
             }
-        </script>
 
+
+        </script> 
         
         </div>
     </div>
