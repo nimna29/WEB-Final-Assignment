@@ -6,6 +6,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function validationform2()
+
+        {
+            fname=document.pkgform.fname.value.length;
+            lname=document.pkgform.lname.value.length;
+            email=document.pkgform.email.value.length;
+            phone=document.pkgform.phone.value.length;
+            date = document.pkgform.date.value.length;
+            venue=document.pkgform.venue.value.length;
+            category=document.pkgform.Category.value;
+            textarea=document.pkgform.textarea.length;    
+
+            if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1 || date<1 || venue<1)
+
+            {
+                alert("Input is Empty - Please Type On The Relevant Field.");
+            }
+            mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(!(document.pkgform.email.value.match(mailformat)))
+            {
+                alert("You have entered an invalid email ");
+                document.pkgform.email.focus();
+            }
+
+            if(phone != 10 || isNaN(document.pkgform.phone.value))
+            {
+                alert("Phone Number Error: All the characters should be numbers and length should be 10");
+            }
+
+        }
+
+
+    </script> 
+
 </head>
 <body>
 
@@ -149,40 +185,7 @@
             <input type = "submit" class = "send-btn" value = "Send to Pixelence" onclick="validationform2()">
         </form>
         
-        <script>
-            function validationform2()
-
-            {
-                fname=document.pkgform.fname.value.length;
-                lname=document.pkgform.lname.value.length;
-                email=document.pkgform.email.value.length;
-                phone=document.pkgform.phone.value.length;
-                date = document.pkgform.date.value.length;
-                venue=document.pkgform.venue.value.length;
-                category=document.pkgform.Category.value;
-                textarea=document.pkgform.textarea.length;    
-
-                if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1 || date<1 || venue<1)
-
-                {
-                    alert("Input is Empty - Please Type On The Relevant Field.");
-                }
-                mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                if(!(document.pkgform.email.value.match(mailformat)))
-                {
-                    alert("You have entered an invalid email ");
-                    document.pkgform.email.focus();
-                }
-
-                if(phone != 10 || isNaN(document.pkgform.phone.value))
-                {
-                    alert("Phone Number Error: All the characters should be numbers and length should be 10");
-                }
-
-            }
-
-
-        </script> 
+      
         
         </div>
     </div>
