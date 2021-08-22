@@ -152,19 +152,18 @@
         <script>
             function validationform2()
             {
-                fname    = document.Packages.fname.value.length;
-                lname    = document.Packages.lname.value.length;
-                email    = document.Packages.email.value.length;
-                phone    = document.Packages.phone.value.length;
-                category = document.Packages.Category.value;
-                textarea = document.Packages.textarea.length;
-                date     = document.validationforam.Date.value.length;
-                venue    = document.Packages.venue.value.length;
+                fname    = document.pkgform.fname.value.length;
+                lname    = document.pkgform.lname.value.length;
+                email    = document.pkgform.email.value.length;
+                phone    = document.pkgform.phone.value.length;
+                category = document.pkgform.Category.value;
+                textarea = document.pkgform.textarea.length;
+                date     = document.pkgform.Date.value.length;
+                venue    = document.pkgform.venue.value.length;
 
                 if(fname<1 || lname<1 || email<1 || phone<1 || textarea<1 || date<1 || venue<1)
                 {
                     alert("Input is Empty - Please Type On The Relevant Field.");
-
 
                 }
 
