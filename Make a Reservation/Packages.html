@@ -168,13 +168,13 @@
                     alert("Input is Empty - Please Type On The Relevant Field.");
                 }
                 mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                if(!(document.contactus.email.value.match(mailformat)))
+                if(!(document.pkgform.email.value.match(mailformat)))
                 {
                     alert("You have entered an invalid email ");
-                    document.contactus.email.focus();
+                    document.pkgform.email.focus();
                 }
 
-                if(phone != 10 || isNaN(document.contactus.phone.value))
+                if(phone != 10 || isNaN(document.pkgform.phone.value))
                 {
                     alert("Phone Number Error: All the characters should be numbers and length should be 10");
                 }
