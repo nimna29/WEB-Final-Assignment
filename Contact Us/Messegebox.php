@@ -28,10 +28,10 @@
                 '".$_POST["textarea"]."')";
         
         if($conn->query($sqlcus) === TRUE){
-            echo "<h2 style = 'color: green; text-align:center;'>Your data was sent successfully to Pixcelence | Art Studio!</h2>";
+            echo "<h2 style = 'color: blue; text-align:center;'>We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone number listed below to talk to one of our pixelence staff members.Otherwise, we will reply by email as soon as possible.</h2>";
         }
         else{
-            echo "<h2 style = 'color: red; text-align:center;'>Error: Your data is unable sent to Pixcelence | Art Studio! </h2>".$conn->error;
+            echo "<h2 style = 'color: red; text-align:center;'>Error: Your messege not sent! Try again Later | If your inquiry is urgent, please use the telephone number listed below to contact us immediately </h2>".$conn->error;
         }
 
         $conn->close();
