@@ -36,7 +36,11 @@
             {
                 alert("Phone Number Error: All the characters should be numbers and length should be 10");
             }
-
+            if(!document.pkgform.Category[0].checked && !document.pkgform.Category[1].checked && !document.pkgform.Category[2].checked && !document.pkgform.Category[3].checked && !document.pkgform.Category[4].checked )
+            {
+                alert("Error: Select your Category");
+                return;
+            }
         }
 
 
