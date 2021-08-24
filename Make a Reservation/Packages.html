@@ -24,22 +24,25 @@
 
             {
                 alert("Input is Empty - Please Type On The Relevant Field.");
+                return;
             }
             mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
             if(!(document.pkgform.email.value.match(mailformat)))
             {
                 alert("You have entered an invalid email ");
                 document.pkgform.email.focus();
+                return;
             }
 
             if(phone != 10 || isNaN(document.pkgform.phone.value))
             {
                 alert("Phone Number Error: All the characters should be numbers and length should be 10");
+                return;
             }
             if(!document.pkgform.Category[0].checked && !document.pkgform.Category[1].checked && !document.pkgform.Category[2].checked && !document.pkgform.Category[3].checked && !document.pkgform.Category[4].checked )
             {
                 alert("Error: Select your Category");
-                
+                return;
             }
         }
 
