@@ -31,7 +31,7 @@
                 '".$_POST["textarea"]."')";
         
         if($conn->query($sql) === TRUE){
-            echo "<h2 style = 'color: green; text-align:center;'>Your data was sent successfully to Pixcelence | Art Studio!</h2>";
+            echo "<h2 style = 'color: green; text-align:center;'>Your data was sent successfully to Pixcelence | Art Studio!<br>We will reply by email as soon as possible.</h2>";
         }
         else{
             echo "<h2 style = 'color: red; text-align:center;'>Error: Your data is unable sent to Pixcelence | Art Studio! </h2>".$conn->error;
