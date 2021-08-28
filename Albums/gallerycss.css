@@ -123,6 +123,42 @@ body {
     background-size: cover;
 }
 
+/* Background of the Banner 7 */
+
+.banner-img7 {
+    position: absolute;
+    background-image: url('Assets/bannerimg7.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background of the Banner 8 */
+
+.banner-img8 {
+    position: absolute;
+    background-image: url('Assets/bannerimg8.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background of the Banner 9 */
+
+.banner-img9 {
+    position: absolute;
+    background-image: url('Assets/bannerimg9.jpg');
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .profile-img {
     width: 8rem;
     clip-path: circle(60px at center);
